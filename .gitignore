@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+.history/
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Coverage & cache
+coverage/
+.cache/
+.eslintcache
+stylelintcache
+
