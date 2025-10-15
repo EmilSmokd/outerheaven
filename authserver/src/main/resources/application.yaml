@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: "outerheaven"
+
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: jdbc:postgresql://localhost:5432/outerheaven_db
+    username: outerheaven_user
+    password: secret123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+server:
+  port: 9000
